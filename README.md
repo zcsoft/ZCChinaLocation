@@ -16,5 +16,5 @@
 
 将ZCChinaLocation.h和ZCChinaLocation.m添加到工程;
 
-  //判断纬度：44.042156， 经度132.759178是否在中国境内
-  BOOL ischina = [[ZCChinaLocation shared] isInsideChina:(CLLocationCoordinate2D){44.042156,132.759178}];
+    //判断纬度：44.042156， 经度132.759178是否在中国境内
+    BOOL ischina = [[ZCChinaLocation shared] isInsideChina:(CLLocationCoordinate2D){44.042156,132.759178}];
