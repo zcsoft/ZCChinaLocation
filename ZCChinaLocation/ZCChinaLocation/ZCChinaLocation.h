@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 cuibo. All rights reserved.
 //
 
+
+//
+//文档：
+//http://blog.csdn.net/cuibo1123/article/details/45691631
 //
 //使用方法：
 //
