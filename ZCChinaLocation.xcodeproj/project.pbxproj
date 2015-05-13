@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0326B431B020872001C56CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0326B421B020872001C56CF /* main.m */; };
+		C0326B461B020872001C56CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0326B451B020872001C56CF /* AppDelegate.m */; };
+		C0326B491B020872001C56CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0326B481B020872001C56CF /* ViewController.m */; };
+		C0326B4C1B020872001C56CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0326B4A1B020872001C56CF /* Main.storyboard */; };
+		C0326B4E1B020872001C56CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0326B4D1B020872001C56CF /* Images.xcassets */; };
+		C0326B511B020872001C56CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0326B4F1B020872001C56CF /* LaunchScreen.xib */; };
+		C0326B5D1B020872001C56CF /* ZCChinaLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0326B5C1B020872001C56CF /* ZCChinaLocationTests.m */; };
+		C0326B691B0208CC001C56CF /* ZCChinaLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0326B681B0208CC001C56CF /* ZCChinaLocation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0326B571B020872001C56CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0326B351B020872001C56CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0326B3C1B020872001C56CF;
+			remoteInfo = ZCChinaLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0326B3D1B020872001C56CF /* ZCChinaLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCChinaLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0326B411B020872001C56CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0326B421B020872001C56CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0326B441B020872001C56CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0326B451B020872001C56CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0326B471B020872001C56CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0326B481B020872001C56CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0326B4B1B020872001C56CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0326B4D1B020872001C56CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0326B501B020872001C56CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0326B561B020872001C56CF /* ZCChinaLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCChinaLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0326B5B1B020872001C56CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0326B5C1B020872001C56CF /* ZCChinaLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCChinaLocationTests.m; sourceTree = "<group>"; };
+		C0326B671B0208CC001C56CF /* ZCChinaLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCChinaLocation.h; sourceTree = "<group>"; };
+		C0326B681B0208CC001C56CF /* ZCChinaLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCChinaLocation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0326B3A1B020872001C56CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0326B531B020872001C56CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0326B341B020872001C56CF = {
+			isa = PBXGroup;
+			children = (
+				C0326B3F1B020872001C56CF /* ZCChinaLocation */,
+				C0326B591B020872001C56CF /* ZCChinaLocationTests */,
+				C0326B3E1B020872001C56CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0326B3E1B020872001C56CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0326B3D1B020872001C56CF /* ZCChinaLocation.app */,
+				C0326B561B020872001C56CF /* ZCChinaLocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0326B3F1B020872001C56CF /* ZCChinaLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C0326B661B0208BE001C56CF /* ZCChinaLocation */,
+				C0326B441B020872001C56CF /* AppDelegate.h */,
+				C0326B451B020872001C56CF /* AppDelegate.m */,
+				C0326B471B020872001C56CF /* ViewController.h */,
+				C0326B481B020872001C56CF /* ViewController.m */,
+				C0326B4A1B020872001C56CF /* Main.storyboard */,
+				C0326B4D1B020872001C56CF /* Images.xcassets */,
+				C0326B4F1B020872001C56CF /* LaunchScreen.xib */,
+				C0326B401B020872001C56CF /* Supporting Files */,
+			);
+			path = ZCChinaLocation;
+			sourceTree = "<group>";
+		};
+		C0326B401B020872001C56CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0326B411B020872001C56CF /* Info.plist */,
+				C0326B421B020872001C56CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0326B591B020872001C56CF /* ZCChinaLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0326B5C1B020872001C56CF /* ZCChinaLocationTests.m */,
+				C0326B5A1B020872001C56CF /* Supporting Files */,
+			);
+			path = ZCChinaLocationTests;
+			sourceTree = "<group>";
+		};
+		C0326B5A1B020872001C56CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0326B5B1B020872001C56CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0326B661B0208BE001C56CF /* ZCChinaLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C0326B671B0208CC001C56CF /* ZCChinaLocation.h */,
+				C0326B681B0208CC001C56CF /* ZCChinaLocation.m */,
+			);
+			path = ZCChinaLocation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0326B3C1B020872001C56CF /* ZCChinaLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0326B601B020872001C56CF /* Build configuration list for PBXNativeTarget "ZCChinaLocation" */;
+			buildPhases = (
+				C0326B391B020872001C56CF /* Sources */,
+				C0326B3A1B020872001C56CF /* Frameworks */,
+				C0326B3B1B020872001C56CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCChinaLocation;
+			productName = ZCChinaLocation;
+			productReference = C0326B3D1B020872001C56CF /* ZCChinaLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0326B551B020872001C56CF /* ZCChinaLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0326B631B020872001C56CF /* Build configuration list for PBXNativeTarget "ZCChinaLocationTests" */;
+			buildPhases = (
+				C0326B521B020872001C56CF /* Sources */,
+				C0326B531B020872001C56CF /* Frameworks */,
+				C0326B541B020872001C56CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0326B581B020872001C56CF /* PBXTargetDependency */,
+			);
+			name = ZCChinaLocationTests;
+			productName = ZCChinaLocationTests;
+			productReference = C0326B561B020872001C56CF /* ZCChinaLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0326B351B020872001C56CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cuibo;
+				TargetAttributes = {
+					C0326B3C1B020872001C56CF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C0326B551B020872001C56CF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C0326B3C1B020872001C56CF;
+					};
+				};
+			};
+			buildConfigurationList = C0326B381B020872001C56CF /* Build configuration list for PBXProject "ZCChinaLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0326B341B020872001C56CF;
+			productRefGroup = C0326B3E1B020872001C56CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0326B3C1B020872001C56CF /* ZCChinaLocation */,
+				C0326B551B020872001C56CF /* ZCChinaLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0326B3B1B020872001C56CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0326B4C1B020872001C56CF /* Main.storyboard in Resources */,
+				C0326B511B020872001C56CF /* LaunchScreen.xib in Resources */,
+				C0326B4E1B020872001C56CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0326B541B020872001C56CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0326B391B020872001C56CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0326B491B020872001C56CF /* ViewController.m in Sources */,
+				C0326B691B0208CC001C56CF /* ZCChinaLocation.m in Sources */,
+				C0326B461B020872001C56CF /* AppDelegate.m in Sources */,
+				C0326B431B020872001C56CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0326B521B020872001C56CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0326B5D1B020872001C56CF /* ZCChinaLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0326B581B020872001C56CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0326B3C1B020872001C56CF /* ZCChinaLocation */;
+			targetProxy = C0326B571B020872001C56CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0326B4A1B020872001C56CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0326B4B1B020872001C56CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0326B4F1B020872001C56CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0326B501B020872001C56CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0326B5E1B020872001C56CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0326B5F1B020872001C56CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0326B611B020872001C56CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCChinaLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0326B621B020872001C56CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCChinaLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0326B641B020872001C56CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZCChinaLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCChinaLocation.app/ZCChinaLocation";
+			};
+			name = Debug;
+		};
+		C0326B651B020872001C56CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZCChinaLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCChinaLocation.app/ZCChinaLocation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0326B381B020872001C56CF /* Build configuration list for PBXProject "ZCChinaLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0326B5E1B020872001C56CF /* Debug */,
+				C0326B5F1B020872001C56CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0326B601B020872001C56CF /* Build configuration list for PBXNativeTarget "ZCChinaLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0326B611B020872001C56CF /* Debug */,
+				C0326B621B020872001C56CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0326B631B020872001C56CF /* Build configuration list for PBXNativeTarget "ZCChinaLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0326B641B020872001C56CF /* Debug */,
+				C0326B651B020872001C56CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0326B351B020872001C56CF /* Project object */;
+}
